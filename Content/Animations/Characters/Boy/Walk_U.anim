@@ -1,0 +1,29 @@
+{
+  "Id": "a5e485de",
+  "Name": "Walk_U",
+  "AtlasId": "7141140d",
+  "AtlasPath": "Sprites/Characters/Boy/Walk.png",
+  "Frames": [
+    {
+      "SliceIndex": 1,
+      "Duration": 0.15,
+      "EventName": null
+    },
+    {
+      "SliceIndex": 5,
+      "Duration": 0.15,
+      "EventName": "step_l"
+    },
+    {
+      "SliceIndex": 9,
+      "Duration": 0.15,
+      "EventName": null
+    },
+    {
+      "SliceIndex": 13,
+      "Duration": 0.15,
+      "EventName": "step_r"
+    }
+  ],
+  "Loop": true
+}

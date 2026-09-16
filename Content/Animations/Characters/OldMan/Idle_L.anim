@@ -1,0 +1,14 @@
+{
+  "Id": "cb11b66e",
+  "Name": "Idle_L",
+  "AtlasId": "32957517",
+  "AtlasPath": "Sprites/Characters/OldMan/Idle.png",
+  "Frames": [
+    {
+      "SliceIndex": 2,
+      "Duration": 0.5,
+      "EventName": null
+    }
+  ],
+  "Loop": true
+}

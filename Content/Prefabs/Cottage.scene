@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 2,
+  "nextEntityId": 4,
+  "id": "7c0e2b51",
+  "name": "Cottage",
+  "kind": "Prefab",
+  "lightingEnabled": false,
+  "ambientR": 110,
+  "ambientG": 110,
+  "ambientB": 130,
+  "exterior": false,
+  "viewZoom": 1,
+  "cameraFixed": false,
+  "cameraFixedX": 0,
+  "cameraFixedY": 0,
+  "cameraBoundsEnabled": false,
+  "cameraDampingEnabled": false,
+  "cameraDampingX": 2.3,
+  "cameraDampingY": 2.3,
+  "cameraBoundsX": 0,
+  "cameraBoundsY": 0,
+  "cameraBoundsW": 0,
+  "cameraBoundsH": 0,
+  "postTintR": 255,
+  "postTintG": 255,
+  "postTintB": 255,
+  "postTintStrength": 0,
+  "postFogR": 185,
+  "postFogG": 195,
+  "postFogB": 215,
+  "postFogOpacity": 0,
+  "postVignette": 0,
+  "entities": [
+    {
+      "id": 1,
+      "parentId": 0,
+      "name": "Cottage",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 0,
+          "y": 0,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "60f5f9d3",
+          "slice": "House_Orange",
+          "srcX": 0,
+          "srcY": 0,
+          "srcW": 64,
+          "srcH": 48,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": false,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -9,
+          "sizeX": 60,
+          "sizeY": 18,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parentId": 1,
+      "name": "Door",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 0,
+          "y": 4,
+          "rotation": 0
+        },
+        {
+          "type": "interactable",
+          "prompt": "verb.enter",
+          "kind": "Door",
+          "target": "b83f0d4e",
+          "spawn": "Spawn_FromVillage",
+          "range": 10,
+          "facing": "Up"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "parentId": 1,
+      "name": "Doorstep",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 0,
+          "y": 14,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Pebbles",
+          "srcX": 256,
+          "srcY": 288,
+          "srcW": 16,
+          "srcH": 16,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": -500,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        }
+      ]
+    }
+  ],
+  "tilemapLayers": [],
+  "tilemapActive": true
+}

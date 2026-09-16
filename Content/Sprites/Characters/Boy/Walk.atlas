@@ -1,0 +1,158 @@
+{
+  "Id": "7141140d",
+  "TexturePath": "Walk.png",
+  "Mode": "Grid",
+  "CellWidth": 16,
+  "CellHeight": 16,
+  "OffsetX": 0,
+  "OffsetY": 0,
+  "SpacingX": 0,
+  "SpacingY": 0,
+  "OpaqueWidth": 15,
+  "Slices": [
+    {
+      "Name": "Walk_D_0",
+      "X": 0,
+      "Y": 0,
+      "Width": 16,
+      "Height": 16,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "Walk_U_0",
+      "X": 16,
+      "Y": 0,
+      "Width": 16,
+      "Height": 16,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "Walk_L_0",
+      "X": 32,
+      "Y": 0,
+      "Width": 16,
+      "Height": 16,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "Walk_R_0",
+      "X": 48,
+      "Y": 0,
+      "Width": 16,
+      "Height": 16,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "Walk_D_1",
+      "X": 0,
+      "Y": 16,
+      "Width": 16,
+      "Height": 16,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "Walk_U_1",
+      "X": 16,
+      "Y": 16,
+      "Width": 16,
+      "Height": 16,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "Walk_L_1",
+      "X": 32,
+      "Y": 16,
+      "Width": 16,
+      "Height": 16,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "Walk_R_1",
+      "X": 48,
+      "Y": 16,
+      "Width": 16,
+      "Height": 16,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "Walk_D_2",
+      "X": 0,
+      "Y": 32,
+      "Width": 16,
+      "Height": 16,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "Walk_U_2",
+      "X": 16,
+      "Y": 32,
+      "Width": 16,
+      "Height": 16,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "Walk_L_2",
+      "X": 32,
+      "Y": 32,
+      "Width": 16,
+      "Height": 16,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "Walk_R_2",
+      "X": 48,
+      "Y": 32,
+      "Width": 16,
+      "Height": 16,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "Walk_D_3",
+      "X": 0,
+      "Y": 48,
+      "Width": 16,
+      "Height": 16,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "Walk_U_3",
+      "X": 16,
+      "Y": 48,
+      "Width": 16,
+      "Height": 16,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "Walk_L_3",
+      "X": 32,
+      "Y": 48,
+      "Width": 16,
+      "Height": 16,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "Walk_R_3",
+      "X": 48,
+      "Y": 48,
+      "Width": 16,
+      "Height": 16,
+      "PivotX": 0.5,
+      "PivotY": 1
+    }
+  ]
+}

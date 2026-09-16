@@ -1,0 +1,29 @@
+{
+  "Id": "e4b3f2f0",
+  "Name": "Walk_D",
+  "AtlasId": "829554f9",
+  "AtlasPath": "Sprites/Characters/Slime/Walk.png",
+  "Frames": [
+    {
+      "SliceIndex": 0,
+      "Duration": 0.15,
+      "EventName": null
+    },
+    {
+      "SliceIndex": 4,
+      "Duration": 0.15,
+      "EventName": null
+    },
+    {
+      "SliceIndex": 8,
+      "Duration": 0.15,
+      "EventName": null
+    },
+    {
+      "SliceIndex": 12,
+      "Duration": 0.15,
+      "EventName": null
+    }
+  ],
+  "Loop": true
+}

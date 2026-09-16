@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "nextEntityId": 2,
+  "id": "51a3e0c4",
+  "name": "Slime",
+  "kind": "Prefab",
+  "lightingEnabled": false,
+  "ambientR": 110,
+  "ambientG": 110,
+  "ambientB": 130,
+  "exterior": false,
+  "viewZoom": 1,
+  "cameraFixed": false,
+  "cameraFixedX": 0,
+  "cameraFixedY": 0,
+  "cameraBoundsEnabled": false,
+  "cameraDampingEnabled": false,
+  "cameraDampingX": 2.3,
+  "cameraDampingY": 2.3,
+  "cameraBoundsX": 0,
+  "cameraBoundsY": 0,
+  "cameraBoundsW": 0,
+  "cameraBoundsH": 0,
+  "postTintR": 255,
+  "postTintG": 255,
+  "postTintB": 255,
+  "postTintStrength": 0,
+  "postFogR": 185,
+  "postFogG": 195,
+  "postFogB": 215,
+  "postFogOpacity": 0,
+  "postVignette": 0,
+  "entities": [
+    {
+      "id": 1,
+      "parentId": 0,
+      "name": "Slime",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 0,
+          "y": 0,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "829554f9",
+          "slice": "Walk_D_0",
+          "srcX": 0,
+          "srcY": 0,
+          "srcW": 16,
+          "srcH": 16,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "animator",
+          "clips": [
+            "e4b3f2f0",
+            "cdd397fe",
+            "f8704faa",
+            "dc79bd91"
+          ],
+          "defaultClip": "Walk_D"
+        },
+        {
+          "type": "rigidbody",
+          "useGravity": false,
+          "gravityScale": 1,
+          "isKinematic": false,
+          "maxFallSpeed": 800
+        },
+        {
+          "type": "circleCollider",
+          "offsetX": 0,
+          "offsetY": -4,
+          "radius": 5,
+          "isTrigger": false
+        },
+        {
+          "type": "component",
+          "name": "PixelCore.Gameplay.Combat.Health"
+        },
+        {
+          "type": "component",
+          "name": "PixelCore.Gameplay.Combat.Slime"
+        }
+      ]
+    }
+  ],
+  "tilemapLayers": [],
+  "tilemapActive": true
+}

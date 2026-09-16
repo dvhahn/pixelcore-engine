@@ -1,0 +1,39 @@
+{
+  "Id": "718c3051",
+  "Name": "Smoke",
+  "AtlasId": "891497c9",
+  "AtlasPath": "Sprites/FX/Smoke.png",
+  "Frames": [
+    {
+      "SliceIndex": 0,
+      "Duration": 0.07,
+      "EventName": null
+    },
+    {
+      "SliceIndex": 1,
+      "Duration": 0.07,
+      "EventName": null
+    },
+    {
+      "SliceIndex": 2,
+      "Duration": 0.07,
+      "EventName": null
+    },
+    {
+      "SliceIndex": 3,
+      "Duration": 0.07,
+      "EventName": null
+    },
+    {
+      "SliceIndex": 4,
+      "Duration": 0.07,
+      "EventName": null
+    },
+    {
+      "SliceIndex": 5,
+      "Duration": 0.07,
+      "EventName": null
+    }
+  ],
+  "Loop": false
+}

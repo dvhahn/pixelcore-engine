@@ -1,0 +1,56 @@
+{
+  "id": "d678127c",
+  "name": "Rain",
+  "preset": {
+    "burstMin": 0,
+    "burstMax": 0,
+    "gravityX": 0,
+    "gravityY": 0,
+    "swayAmplitude": 0,
+    "swayFrequency": 0,
+    "scale": {
+      "min": 1,
+      "max": 1
+    },
+    "rotation": {
+      "min": 0,
+      "max": 0
+    },
+    "rotationSpeed": {
+      "min": 0,
+      "max": 0
+    },
+    "tintR": 210,
+    "tintG": 225,
+    "tintB": 255,
+    "sortYOffset": 0,
+    "followEmitter": false,
+    "additive": false,
+    "shape": {
+      "kind": "Box",
+      "boxW": 820,
+      "boxH": 4,
+      "radius": 0
+    },
+    "rate": 220,
+    "maxParticles": 600,
+    "speed": {
+      "min": 230,
+      "max": 270
+    },
+    "direction": 112,
+    "spread": 2,
+    "lifetime": {
+      "min": 1.7,
+      "max": 2
+    },
+    "alpha": {
+      "min": 0.55,
+      "max": 0.8
+    },
+    "texture": "27b1467c",
+    "renderLayer": 500,
+    "prewarmSeconds": 2,
+    "snapToPixels": false
+  }
+}

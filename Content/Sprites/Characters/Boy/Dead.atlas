@@ -1,0 +1,23 @@
+{
+  "Id": "5e8c82db",
+  "TexturePath": "Dead.png",
+  "Mode": "Grid",
+  "CellWidth": 16,
+  "CellHeight": 16,
+  "OffsetX": 0,
+  "OffsetY": 0,
+  "SpacingX": 0,
+  "SpacingY": 0,
+  "OpaqueWidth": 16,
+  "Slices": [
+    {
+      "Name": "Dead_0",
+      "X": 0,
+      "Y": 0,
+      "Width": 16,
+      "Height": 16,
+      "PivotX": 0.5,
+      "PivotY": 1
+    }
+  ]
+}

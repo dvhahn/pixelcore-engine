@@ -1,0 +1,29 @@
+{
+  "Id": "cdd397fe",
+  "Name": "Walk_U",
+  "AtlasId": "829554f9",
+  "AtlasPath": "Sprites/Characters/Slime/Walk.png",
+  "Frames": [
+    {
+      "SliceIndex": 1,
+      "Duration": 0.15,
+      "EventName": null
+    },
+    {
+      "SliceIndex": 5,
+      "Duration": 0.15,
+      "EventName": null
+    },
+    {
+      "SliceIndex": 9,
+      "Duration": 0.15,
+      "EventName": null
+    },
+    {
+      "SliceIndex": 13,
+      "Duration": 0.15,
+      "EventName": null
+    }
+  ],
+  "Loop": true
+}

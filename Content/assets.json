@@ -1,0 +1,314 @@
+{
+  "003ddb75": {
+    "Path": "Sprites/Characters/Slime/Walk.png",
+    "Hash": "397B3CCB01335DD8DD812907EEA477116EED653B"
+  },
+  "0a71bee6": {
+    "Path": "Sprites/FX/RainSplash.png",
+    "Hash": "DEAE843226BE2ADBCDC7F34295C7DE427CCD87F3"
+  },
+  "0d6b8e25": {
+    "Path": "Prefabs/SmokeFx.scene",
+    "Hash": ""
+  },
+  "0f65cdcd": {
+    "Path": "Sprites/Tileset/NinjaAdventure/TilesetWallSimple.png",
+    "Hash": "DA10D65AF240BBE3A320A7C4C54B01CC2BFBCB0F"
+  },
+  "10244551": {
+    "Path": "Audio/AMB/Village/Rain.wav",
+    "Hash": "94F2665C97D1274CA47F42886BB81478AC0BB94D"
+  },
+  "11802a8f": {
+    "Path": "Sprites/Tileset/NinjaAdventure/TilesetFloor.png",
+    "Hash": "469489B1932920CF7148C971B076C105D938163C"
+  },
+  "14b3222e": {
+    "Path": "Animations/Characters/OldMan/Walk_U.anim",
+    "Hash": ""
+  },
+  "170ae852": {
+    "Path": "Audio/SFX/Combat/Hit.wav",
+    "Hash": "4D30185B2F08A0360D903578D871B92DD6890683"
+  },
+  "1e79946f": {
+    "Path": "Particles/RainSplash.particle",
+    "Hash": ""
+  },
+  "207d0c78": {
+    "Path": "Sprites/Characters/Boy/Attack.png",
+    "Hash": "DEC21C5D5A68B45EDA3191AC1D7F2C193F95673F"
+  },
+  "2283aaca": {
+    "Path": "Animations/Characters/Boy/Idle_L.anim",
+    "Hash": ""
+  },
+  "27b1467c": {
+    "Path": "Sprites/FX/RainDrop.png",
+    "Hash": "6C50039802FA3F96056A7F5347181CAD9BC137F2"
+  },
+  "2c5d8a46": {
+    "Path": "Animations/Characters/Boy/Attack_L.anim",
+    "Hash": ""
+  },
+  "32957517": {
+    "Path": "Sprites/Characters/OldMan/Idle.atlas",
+    "Hash": ""
+  },
+  "3e650ff0": {
+    "Path": "Animations/Characters/OldMan/Idle_D.anim",
+    "Hash": ""
+  },
+  "3e9d61a7": {
+    "Path": "Prefabs/Hero.scene",
+    "Hash": ""
+  },
+  "42371643": {
+    "Path": "Animations/FX/Slash_R.anim",
+    "Hash": ""
+  },
+  "47a5b786": {
+    "Path": "Animations/Characters/Boy/Walk_R.anim",
+    "Hash": ""
+  },
+  "50f3a94c": {
+    "Path": "Animations/Characters/OldMan/Idle_U.anim",
+    "Hash": ""
+  },
+  "51a3e0c4": {
+    "Path": "Prefabs/Slime.scene",
+    "Hash": ""
+  },
+  "544149be": {
+    "Path": "Animations/Characters/Boy/Idle_D.anim",
+    "Hash": ""
+  },
+  "56d8ed43": {
+    "Path": "Animations/Characters/Boy/Idle_U.anim",
+    "Hash": ""
+  },
+  "5a1c7e20": {
+    "Path": "Scenes/Village.scene",
+    "Hash": ""
+  },
+  "5e8c82db": {
+    "Path": "Sprites/Characters/Boy/Dead.atlas",
+    "Hash": ""
+  },
+  "60f5f9d3": {
+    "Path": "Sprites/Tileset/NinjaAdventure/TilesetHouse.atlas",
+    "Hash": ""
+  },
+  "63aa6328": {
+    "Path": "Audio/SFX/Combat/Swing.wav",
+    "Hash": "23CDF9D3255589345722566E90CB3651FCA403D0"
+  },
+  "65356f61": {
+    "Path": "Sprites/Characters/OldMan/Idle.png",
+    "Hash": "78F339C0955360E5BBF76DE916368F85A69AC8E9"
+  },
+  "6d6d3620": {
+    "Path": "Animations/Characters/Boy/Attack_D.anim",
+    "Hash": ""
+  },
+  "6f9647a7": {
+    "Path": "Animations/Characters/Boy/Walk_D.anim",
+    "Hash": ""
+  },
+  "7018c525": {
+    "Path": "Sprites/Characters/Boy/Walk.png",
+    "Hash": "E5CB9FC3285B7E3BF940B6D6F0CDDFF06140B1FC"
+  },
+  "7141140d": {
+    "Path": "Sprites/Characters/Boy/Walk.atlas",
+    "Hash": ""
+  },
+  "718c3051": {
+    "Path": "Animations/FX/Smoke.anim",
+    "Hash": ""
+  },
+  "7c0e2b51": {
+    "Path": "Prefabs/Cottage.scene",
+    "Hash": ""
+  },
+  "7cfff321": {
+    "Path": "Sprites/Tileset/NinjaAdventure/TilesetHouse.png",
+    "Hash": "584DDE896F38125198D07A94A47B67DACA6B3FC4"
+  },
+  "8236b94e": {
+    "Path": "Animations/Characters/Boy/Attack_R.anim",
+    "Hash": ""
+  },
+  "829554f9": {
+    "Path": "Sprites/Characters/Slime/Walk.atlas",
+    "Hash": ""
+  },
+  "858f1d0b": {
+    "Path": "Fonts/Galmuri9.ttf",
+    "Hash": "E6BFECDD01EE199ADEAD6976CFCD0B7CF8481DE1"
+  },
+  "88d41d3c": {
+    "Path": "Animations/Characters/OldMan/Walk_R.anim",
+    "Hash": ""
+  },
+  "891497c9": {
+    "Path": "Sprites/FX/Smoke.atlas",
+    "Hash": ""
+  },
+  "9f3b0e78": {
+    "Path": "Sprites/FX/Slash.png",
+    "Hash": "E35FA737B1CCE934CE3C37F033E39355D41D5481"
+  },
+  "a5e485de": {
+    "Path": "Animations/Characters/Boy/Walk_U.anim",
+    "Hash": ""
+  },
+  "a64e2591": {
+    "Path": "Sprites/Characters/Boy/Idle.atlas",
+    "Hash": ""
+  },
+  "acd65ea7": {
+    "Path": "Sprites/Characters/OldMan/Walk.atlas",
+    "Hash": ""
+  },
+  "af355d68": {
+    "Path": "Sprites/FX/Slash.atlas",
+    "Hash": ""
+  },
+  "b42d8bb5": {
+    "Path": "Sprites/UI/Heart.png",
+    "Hash": "3EF7ED80378DA3AB7414881775B5EBFB4D585B5D"
+  },
+  "b5c1a555": {
+    "Path": "Sprites/Tileset/NinjaAdventure/TilesetInteriorFloor.png",
+    "Hash": "13A7838F2946E36C2A90A04904B18E97F261AAAD"
+  },
+  "b83f0d4e": {
+    "Path": "Scenes/House.scene",
+    "Hash": ""
+  },
+  "bcdfabee": {
+    "Path": "Fonts/phosphor-bold.ttf",
+    "Hash": "4694A7C68FDC23EE408D58FC4D655A3A31F5010C"
+  },
+  "bedb048d": {
+    "Path": "Animations/Characters/Boy/Attack_U.anim",
+    "Hash": ""
+  },
+  "c002a5e0": {
+    "Path": "Animations/Characters/Boy/Dead.anim",
+    "Hash": ""
+  },
+  "c09a6e9f": {
+    "Path": "Animations/FX/Slash_U.anim",
+    "Hash": ""
+  },
+  "c35cd461": {
+    "Path": "Sprites/Tileset/NinjaAdventure/TilesetNature.atlas",
+    "Hash": ""
+  },
+  "c69f2b8d": {
+    "Path": "Animations/FX/Slash_L.anim",
+    "Hash": ""
+  },
+  "c7bee9aa": {
+    "Path": "Animations/Characters/OldMan/Walk_L.anim",
+    "Hash": ""
+  },
+  "cb11b66e": {
+    "Path": "Animations/Characters/OldMan/Idle_L.anim",
+    "Hash": ""
+  },
+  "cdd397fe": {
+    "Path": "Animations/Characters/Slime/Walk_U.anim",
+    "Hash": ""
+  },
+  "d35627ae": {
+    "Path": "Audio/SFX/Combat/Hurt.wav",
+    "Hash": "2A42FD3B8EE30C669E40DB88B51B7E6BC301A1CF"
+  },
+  "d3647763": {
+    "Path": "Animations/Characters/OldMan/Idle_R.anim",
+    "Hash": ""
+  },
+  "d5b39f2a": {
+    "Path": "Animations/Characters/Boy/Idle_R.anim",
+    "Hash": ""
+  },
+  "d678127c": {
+    "Path": "Particles/Rain.particle",
+    "Hash": ""
+  },
+  "d8e742d5": {
+    "Path": "Animations/Characters/Boy/Walk_L.anim",
+    "Hash": ""
+  },
+  "d94554b7": {
+    "Path": "Animations/FX/Slash_D.anim",
+    "Hash": ""
+  },
+  "dc79bd91": {
+    "Path": "Animations/Characters/Slime/Walk_R.anim",
+    "Hash": ""
+  },
+  "e07e79cc": {
+    "Path": "Sprites/Tileset/NinjaAdventure/TilesetNature.png",
+    "Hash": "F98C680218A7E6B74C2343484FF6B76D806E0C6A"
+  },
+  "e0ee984e": {
+    "Path": "Fonts/Pretendard-SemiBold.ttf",
+    "Hash": "E247AB351A1797B1A81F7A5E945C416DE9F7FD91"
+  },
+  "e1528784": {
+    "Path": "Sprites/Characters/Boy/Dead.png",
+    "Hash": "D779E572429D4AF3835EB61DBD6A39DCA75942DE"
+  },
+  "e1e21906": {
+    "Path": "Sprites/Characters/OldMan/Walk.png",
+    "Hash": "7C448D114C59B03961C9F9B36049E8A3D4F6AE2E"
+  },
+  "e4b3f2f0": {
+    "Path": "Animations/Characters/Slime/Walk_D.anim",
+    "Hash": ""
+  },
+  "e9a0eb7e": {
+    "Path": "Fonts/Pretendard-Regular.ttf",
+    "Hash": "F5E25D12FF08FF058ACD8A64D5F9B5F9C92B9D17"
+  },
+  "ee0fbde9": {
+    "Path": "Audio/BGM/CalmVillage.ogg",
+    "Hash": "887C9990C38CCF1F27E1211914C6291D296AC424"
+  },
+  "ef69988f": {
+    "Path": "Sprites/Characters/Boy/Attack.atlas",
+    "Hash": ""
+  },
+  "f44460ae": {
+    "Path": "Sprites/Characters/Boy/Idle.png",
+    "Hash": "EBAF1D75662321EBA6E702ADDEEF949125B58B44"
+  },
+  "f642f7d7": {
+    "Path": "Animations/Characters/OldMan/Walk_D.anim",
+    "Hash": ""
+  },
+  "f7a2c913": {
+    "Path": "Prefabs/SlashFx.scene",
+    "Hash": ""
+  },
+  "f8704faa": {
+    "Path": "Animations/Characters/Slime/Walk_L.anim",
+    "Hash": ""
+  },
+  "f883ad9a": {
+    "Path": "Sprites/UI/DialogueUI.png",
+    "Hash": "96BF1DF1BEB24FC18CCA8F58F9D6BAA66003CB5B"
+  },
+  "f89b662d": {
+    "Path": "Audio/SFX/Combat/Pop.wav",
+    "Hash": "3692BCA692C5C42F047C68AEB61BC2A0B0B3605F"
+  },
+  "ffaddef6": {
+    "Path": "Sprites/FX/Smoke.png",
+    "Hash": "252C25D529E1683C3D40E70831E9FA2AC5D05EF7"
+  }
+}

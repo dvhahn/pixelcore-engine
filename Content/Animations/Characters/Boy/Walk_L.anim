@@ -1,0 +1,29 @@
+{
+  "Id": "d8e742d5",
+  "Name": "Walk_L",
+  "AtlasId": "7141140d",
+  "AtlasPath": "Sprites/Characters/Boy/Walk.png",
+  "Frames": [
+    {
+      "SliceIndex": 2,
+      "Duration": 0.15,
+      "EventName": null
+    },
+    {
+      "SliceIndex": 6,
+      "Duration": 0.15,
+      "EventName": "step_l"
+    },
+    {
+      "SliceIndex": 10,
+      "Duration": 0.15,
+      "EventName": null
+    },
+    {
+      "SliceIndex": 14,
+      "Duration": 0.15,
+      "EventName": "step_r"
+    }
+  ],
+  "Loop": true
+}

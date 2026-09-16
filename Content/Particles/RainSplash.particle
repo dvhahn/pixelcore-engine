@@ -1,0 +1,55 @@
+{
+  "id": "1e79946f",
+  "name": "RainSplash",
+  "preset": {
+    "burstMin": 0,
+    "burstMax": 0,
+    "gravityX": 0,
+    "gravityY": 0,
+    "swayAmplitude": 0,
+    "swayFrequency": 0,
+    "scale": {
+      "min": 1,
+      "max": 1
+    },
+    "rotation": {
+      "min": 0,
+      "max": 0
+    },
+    "rotationSpeed": {
+      "min": 0,
+      "max": 0
+    },
+    "tintR": 210,
+    "tintG": 225,
+    "tintB": 255,
+    "sortYOffset": 0,
+    "followEmitter": false,
+    "additive": false,
+    "shape": {
+      "kind": "Box",
+      "boxW": 640,
+      "boxH": 416,
+      "radius": 0
+    },
+    "rate": 70,
+    "maxParticles": 60,
+    "speed": {
+      "min": 0,
+      "max": 0
+    },
+    "direction": 90,
+    "spread": 0,
+    "lifetime": {
+      "min": 0.18,
+      "max": 0.26
+    },
+    "alpha": {
+      "min": 0.7,
+      "max": 0.9
+    },
+    "texture": "0a71bee6",
+    "renderLayer": -500,
+    "prewarmSeconds": 0
+  }
+}

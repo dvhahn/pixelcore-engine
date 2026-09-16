@@ -1,0 +1,50 @@
+{
+  "Id": "ef69988f",
+  "TexturePath": "Attack.png",
+  "Mode": "Grid",
+  "CellWidth": 16,
+  "CellHeight": 16,
+  "OffsetX": 0,
+  "OffsetY": 0,
+  "SpacingX": 0,
+  "SpacingY": 0,
+  "OpaqueWidth": 15,
+  "Slices": [
+    {
+      "Name": "Attack_D_0",
+      "X": 0,
+      "Y": 0,
+      "Width": 16,
+      "Height": 16,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "Attack_U_0",
+      "X": 16,
+      "Y": 0,
+      "Width": 16,
+      "Height": 16,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "Attack_L_0",
+      "X": 32,
+      "Y": 0,
+      "Width": 16,
+      "Height": 16,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "Attack_R_0",
+      "X": 48,
+      "Y": 0,
+      "Width": 16,
+      "Height": 16,
+      "PivotX": 0.5,
+      "PivotY": 1
+    }
+  ]
+}

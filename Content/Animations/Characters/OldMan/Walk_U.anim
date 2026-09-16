@@ -1,0 +1,29 @@
+{
+  "Id": "14b3222e",
+  "Name": "Walk_U",
+  "AtlasId": "acd65ea7",
+  "AtlasPath": "Sprites/Characters/OldMan/Walk.png",
+  "Frames": [
+    {
+      "SliceIndex": 1,
+      "Duration": 0.15,
+      "EventName": null
+    },
+    {
+      "SliceIndex": 5,
+      "Duration": 0.15,
+      "EventName": "step_l"
+    },
+    {
+      "SliceIndex": 9,
+      "Duration": 0.15,
+      "EventName": null
+    },
+    {
+      "SliceIndex": 13,
+      "Duration": 0.15,
+      "EventName": "step_r"
+    }
+  ],
+  "Loop": true
+}

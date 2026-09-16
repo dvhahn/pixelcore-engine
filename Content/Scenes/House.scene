@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 2,
+  "nextEntityId": 6,
+  "id": "b83f0d4e",
+  "name": "House",
+  "kind": "Level",
+  "lightingEnabled": true,
+  "ambientR": 120,
+  "ambientG": 110,
+  "ambientB": 140,
+  "exterior": false,
+  "viewZoom": 1,
+  "cameraFixed": true,
+  "cameraFixedX": 96,
+  "cameraFixedY": 72,
+  "cameraBoundsEnabled": false,
+  "cameraDampingEnabled": false,
+  "cameraDampingX": 2.3,
+  "cameraDampingY": 2.3,
+  "cameraBoundsX": 0,
+  "cameraBoundsY": 0,
+  "cameraBoundsW": 0,
+  "cameraBoundsH": 0,
+  "postTintR": 255,
+  "postTintG": 255,
+  "postTintB": 255,
+  "postTintStrength": 0,
+  "postFogR": 185,
+  "postFogG": 195,
+  "postFogB": 215,
+  "postFogOpacity": 0,
+  "postVignette": 0,
+  "entities": [
+    {
+      "id": 1,
+      "parentId": 0,
+      "name": "Hearth",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 96,
+          "y": 64,
+          "rotation": 0
+        },
+        {
+          "type": "light",
+          "r": 255,
+          "g": 206,
+          "b": 150,
+          "radius": 96,
+          "intensity": 1.1,
+          "shape": "Point",
+          "rotation": 0,
+          "length": 160,
+          "spreadAngle": 50,
+          "rectW": 96,
+          "rectH": 64,
+          "feather": 0.35,
+          "followSun": false,
+          "texScaleX": 1,
+          "texScaleY": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parentId": 0,
+      "name": "DoorStop",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 96,
+          "y": 152,
+          "rotation": 0
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -4,
+          "sizeX": 32,
+          "sizeY": 8,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "parentId": 0,
+      "name": "ExitDoor",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 96,
+          "y": 140,
+          "rotation": 0
+        },
+        {
+          "type": "interactable",
+          "prompt": "verb.exit",
+          "kind": "Door",
+          "target": "5a1c7e20",
+          "spawn": "Spawn_FromHouse",
+          "range": 10,
+          "facing": "Down"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "parentId": 0,
+      "name": "Spawn_FromVillage",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 96,
+          "y": 124,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "parentId": 0,
+      "name": "Player",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 96,
+          "y": 124,
+          "rotation": 0
+        },
+        {
+          "type": "sceneInstance",
+          "sceneId": "3e9d61a7"
+        }
+      ]
+    }
+  ],
+  "tilemapLayers": [
+    {
+      "name": "Floor",
+      "width": 12,
+      "height": 9,
+      "tileSize": 16,
+      "renderLayer": -1000,
+      "hasCollision": false,
+      "drawOrder": 0,
+      "rows": [
+        ".,.,.,.,.,.,.,.,.,.,.,.",
+        ".,23,23,23,23,23,23,23,23,23,23,.",
+        ".,23,23,23,23,23,23,23,23,23,23,.",
+        ".,23,23,23,0,1,1,2,23,23,23,.",
+        ".,23,23,23,22,23,23,24,23,23,23,.",
+        ".,23,23,23,44,45,45,46,23,23,23,.",
+        ".,23,23,23,23,23,23,23,23,23,23,.",
+        ".,23,23,23,23,23,23,23,23,23,23,.",
+        ".,.,.,.,.,23,23,.,.,.,.,."
+      ],
+      "tileset": "b5c1a555"
+    },
+    {
+      "name": "Walls",
+      "width": 12,
+      "height": 9,
+      "tileSize": 16,
+      "renderLayer": -1000,
+      "hasCollision": true,
+      "drawOrder": 1,
+      "rows": [
+        "0,3,3,3,3,3,3,3,3,3,3,4",
+        "10,.,.,.,.,.,.,.,.,.,.,14",
+        "10,.,.,.,.,.,.,.,.,.,.,14",
+        "10,.,.,.,.,.,.,.,.,.,.,14",
+        "10,.,.,.,.,.,.,.,.,.,.,14",
+        "10,.,.,.,.,.,.,.,.,.,.,14",
+        "10,.,.,.,.,.,.,.,.,.,.,14",
+        "10,.,.,.,.,.,.,.,.,.,.,14",
+        "40,43,43,43,41,.,.,42,43,43,43,44"
+      ],
+      "tileset": "0f65cdcd"
+    }
+  ],
+  "tilemapActive": true
+}

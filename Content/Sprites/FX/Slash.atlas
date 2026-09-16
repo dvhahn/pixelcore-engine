@@ -1,0 +1,194 @@
+{
+  "Id": "af355d68",
+  "TexturePath": "Slash.png",
+  "Mode": "Grid",
+  "CellWidth": 32,
+  "CellHeight": 32,
+  "OffsetX": 0,
+  "OffsetY": 0,
+  "SpacingX": 0,
+  "SpacingY": 0,
+  "OpaqueWidth": 0,
+  "Slices": [
+    {
+      "Name": "Slash_D_0",
+      "X": 0,
+      "Y": 0,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 0.5
+    },
+    {
+      "Name": "Slash_D_1",
+      "X": 32,
+      "Y": 0,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 0.5
+    },
+    {
+      "Name": "Slash_D_2",
+      "X": 64,
+      "Y": 0,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 0.5
+    },
+    {
+      "Name": "Slash_D_3",
+      "X": 96,
+      "Y": 0,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 0.5
+    },
+    {
+      "Name": "Slash_D_4",
+      "X": 128,
+      "Y": 0,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 0.5
+    },
+    {
+      "Name": "Slash_U_0",
+      "X": 0,
+      "Y": 32,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 0.5
+    },
+    {
+      "Name": "Slash_U_1",
+      "X": 32,
+      "Y": 32,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 0.5
+    },
+    {
+      "Name": "Slash_U_2",
+      "X": 64,
+      "Y": 32,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 0.5
+    },
+    {
+      "Name": "Slash_U_3",
+      "X": 96,
+      "Y": 32,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 0.5
+    },
+    {
+      "Name": "Slash_U_4",
+      "X": 128,
+      "Y": 32,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 0.5
+    },
+    {
+      "Name": "Slash_L_0",
+      "X": 0,
+      "Y": 64,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 0.5
+    },
+    {
+      "Name": "Slash_L_1",
+      "X": 32,
+      "Y": 64,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 0.5
+    },
+    {
+      "Name": "Slash_L_2",
+      "X": 64,
+      "Y": 64,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 0.5
+    },
+    {
+      "Name": "Slash_L_3",
+      "X": 96,
+      "Y": 64,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 0.5
+    },
+    {
+      "Name": "Slash_L_4",
+      "X": 128,
+      "Y": 64,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 0.5
+    },
+    {
+      "Name": "Slash_R_0",
+      "X": 0,
+      "Y": 96,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 0.5
+    },
+    {
+      "Name": "Slash_R_1",
+      "X": 32,
+      "Y": 96,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 0.5
+    },
+    {
+      "Name": "Slash_R_2",
+      "X": 64,
+      "Y": 96,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 0.5
+    },
+    {
+      "Name": "Slash_R_3",
+      "X": 96,
+      "Y": 96,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 0.5
+    },
+    {
+      "Name": "Slash_R_4",
+      "X": 128,
+      "Y": 96,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 0.5
+    }
+  ]
+}

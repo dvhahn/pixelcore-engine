@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 2,
+  "nextEntityId": 2,
+  "id": "3e9d61a7",
+  "name": "Hero",
+  "kind": "Prefab",
+  "lightingEnabled": false,
+  "ambientR": 110,
+  "ambientG": 110,
+  "ambientB": 130,
+  "exterior": false,
+  "viewZoom": 1,
+  "cameraFixed": false,
+  "cameraFixedX": 0,
+  "cameraFixedY": 0,
+  "cameraBoundsEnabled": false,
+  "cameraDampingEnabled": false,
+  "cameraDampingX": 2.3,
+  "cameraDampingY": 2.3,
+  "cameraBoundsX": 0,
+  "cameraBoundsY": 0,
+  "cameraBoundsW": 0,
+  "cameraBoundsH": 0,
+  "postTintR": 255,
+  "postTintG": 255,
+  "postTintB": 255,
+  "postTintStrength": 0,
+  "postFogR": 185,
+  "postFogG": 195,
+  "postFogB": 215,
+  "postFogOpacity": 0,
+  "postVignette": 0,
+  "entities": [
+    {
+      "id": 1,
+      "parentId": 0,
+      "name": "Player",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 0,
+          "y": 0,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "a64e2591",
+          "slice": "Idle_D_0",
+          "srcX": 0,
+          "srcY": 0,
+          "srcW": 16,
+          "srcH": 16,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "animator",
+          "clips": [
+            "6f9647a7",
+            "a5e485de",
+            "d8e742d5",
+            "47a5b786",
+            "544149be",
+            "56d8ed43",
+            "2283aaca",
+            "d5b39f2a",
+            "6d6d3620",
+            "bedb048d",
+            "2c5d8a46",
+            "8236b94e",
+            "c002a5e0"
+          ],
+          "defaultClip": "Idle_D"
+        },
+        {
+          "type": "playerController"
+        },
+        {
+          "type": "component",
+          "name": "PixelCore.Gameplay.Combat.Health"
+        },
+        {
+          "type": "interactor"
+        },
+        {
+          "type": "footstepEmitter"
+        },
+        {
+          "type": "rigidbody",
+          "useGravity": false,
+          "gravityScale": 1,
+          "isKinematic": false,
+          "maxFallSpeed": 800
+        },
+        {
+          "type": "capsuleCollider",
+          "offsetX": 0,
+          "offsetY": -2,
+          "radius": 3,
+          "length": 2,
+          "horizontal": true,
+          "isTrigger": false
+        }
+      ]
+    }
+  ],
+  "tilemapLayers": [],
+  "tilemapActive": true
+}

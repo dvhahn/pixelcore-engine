@@ -1,0 +1,14 @@
+{
+  "Id": "2283aaca",
+  "Name": "Idle_L",
+  "AtlasId": "a64e2591",
+  "AtlasPath": "Sprites/Characters/Boy/Idle.png",
+  "Frames": [
+    {
+      "SliceIndex": 2,
+      "Duration": 0.5,
+      "EventName": null
+    }
+  ],
+  "Loop": true
+}

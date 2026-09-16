@@ -1,0 +1,14 @@
+{
+  "Id": "c002a5e0",
+  "Name": "Dead",
+  "AtlasId": "5e8c82db",
+  "AtlasPath": "Sprites/Characters/Boy/Dead.png",
+  "Frames": [
+    {
+      "SliceIndex": 0,
+      "Duration": 0.5,
+      "EventName": null
+    }
+  ],
+  "Loop": false
+}

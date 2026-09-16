@@ -1,0 +1,41 @@
+{
+  "Id": "60f5f9d3",
+  "TexturePath": "TilesetHouse.png",
+  "Mode": "Manual",
+  "CellWidth": 16,
+  "CellHeight": 16,
+  "OffsetX": 0,
+  "OffsetY": 0,
+  "SpacingX": 0,
+  "SpacingY": 0,
+  "OpaqueWidth": 0,
+  "Slices": [
+    {
+      "Name": "House_Orange",
+      "X": 0,
+      "Y": 0,
+      "Width": 64,
+      "Height": 48,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "House_Beige",
+      "X": 64,
+      "Y": 0,
+      "Width": 64,
+      "Height": 48,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "House_Red",
+      "X": 192,
+      "Y": 0,
+      "Width": 64,
+      "Height": 48,
+      "PivotX": 0.5,
+      "PivotY": 1
+    }
+  ]
+}

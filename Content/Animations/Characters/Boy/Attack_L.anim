@@ -1,0 +1,14 @@
+{
+  "Id": "2c5d8a46",
+  "Name": "Attack_L",
+  "AtlasId": "ef69988f",
+  "AtlasPath": "Sprites/Characters/Boy/Attack.png",
+  "Frames": [
+    {
+      "SliceIndex": 2,
+      "Duration": 0.28,
+      "EventName": null
+    }
+  ],
+  "Loop": false
+}

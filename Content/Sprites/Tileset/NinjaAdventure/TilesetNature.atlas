@@ -1,0 +1,86 @@
+{
+  "Id": "c35cd461",
+  "TexturePath": "TilesetNature.png",
+  "Mode": "Manual",
+  "CellWidth": 16,
+  "CellHeight": 16,
+  "OffsetX": 0,
+  "OffsetY": 0,
+  "SpacingX": 0,
+  "SpacingY": 0,
+  "OpaqueWidth": 0,
+  "Slices": [
+    {
+      "Name": "Tree_Round",
+      "X": 0,
+      "Y": 0,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "Tree_Pine",
+      "X": 32,
+      "Y": 0,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "Tree_BigPine",
+      "X": 0,
+      "Y": 32,
+      "Width": 64,
+      "Height": 48,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "Tree_Big",
+      "X": 64,
+      "Y": 32,
+      "Width": 64,
+      "Height": 48,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "Tree_Small",
+      "X": 96,
+      "Y": 128,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "Stump",
+      "X": 0,
+      "Y": 128,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "Rock",
+      "X": 208,
+      "Y": 128,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 1
+    },
+    {
+      "Name": "Pebbles",
+      "X": 256,
+      "Y": 288,
+      "Width": 16,
+      "Height": 16,
+      "PivotX": 0.5,
+      "PivotY": 1
+    }
+  ]
+}

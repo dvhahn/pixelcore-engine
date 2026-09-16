@@ -1,0 +1,44 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelCore", "PixelCore.csproj", "{38EE2C57-CEDA-3FA7-67E0-D822494A8F94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "external", "external", "{36750AFA-6B95-47F2-80DA-0FCD9EAC917B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNA.Core", "external\FNA\FNA.Core.csproj", "{F033CE33-9873-4FAB-8FC8-B17EE14041ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{644264B8-E76E-4570-B216-08FED899195F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponentTableGenerator", "tools\ComponentTableGenerator\ComponentTableGenerator.csproj", "{6E0604FF-C0CD-4178-BB69-70EB027159EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38EE2C57-CEDA-3FA7-67E0-D822494A8F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38EE2C57-CEDA-3FA7-67E0-D822494A8F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38EE2C57-CEDA-3FA7-67E0-D822494A8F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38EE2C57-CEDA-3FA7-67E0-D822494A8F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F033CE33-9873-4FAB-8FC8-B17EE14041ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F033CE33-9873-4FAB-8FC8-B17EE14041ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F033CE33-9873-4FAB-8FC8-B17EE14041ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F033CE33-9873-4FAB-8FC8-B17EE14041ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E0604FF-C0CD-4178-BB69-70EB027159EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E0604FF-C0CD-4178-BB69-70EB027159EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E0604FF-C0CD-4178-BB69-70EB027159EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E0604FF-C0CD-4178-BB69-70EB027159EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF724BF8-04AB-48FD-B0A5-11F1A0B161CF}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F033CE33-9873-4FAB-8FC8-B17EE14041ED} = {36750AFA-6B95-47F2-80DA-0FCD9EAC917B}
+		{6E0604FF-C0CD-4178-BB69-70EB027159EE} = {644264B8-E76E-4570-B216-08FED899195F}
+	EndGlobalSection
+EndGlobal

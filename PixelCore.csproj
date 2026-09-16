@@ -1,0 +1,115 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RollForward>Major</RollForward>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <TieredCompilation>false</TieredCompilation>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <!-- Release publishes with NativeAOT. Debug stays JIT so `dotnet watch` hot reload keeps working (the AOT
+       properties disable the startup hook it relies on). `-p:NoAot=true` gives a self-contained JIT test build
+       with readable stack traces (see scripts/build-test-app.sh). -->
+  <PropertyGroup>
+    <PublishAot Condition="'$(Configuration)' == 'Release' and '$(NoAot)' != 'true'">true</PublishAot>
+    <SelfContained Condition="'$(NoAot)' == 'true'">true</SelfContained>
+    <StripSymbols>true</StripSymbols>
+    <!-- AOT and trimming warnings stay visible in Debug builds too. -->
+    <EnableAotAnalyzer>true</EnableAotAnalyzer>
+    <EnableTrimAnalyzer>true</EnableTrimAnalyzer>
+  </PropertyGroup>
+
+  <!-- The editor is compiled out of Release builds, together with its ImGui dependency. -->
+  <ItemGroup Condition="'$(Configuration)' == 'Release'">
+    <Compile Remove="Editor/**/*.cs" />
+  </ItemGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Icon.ico" />
+    <None Remove="Icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon.ico">
+      <LogicalName>Icon.ico</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Icon.bmp">
+      <LogicalName>Icon.bmp</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+  <!-- external/FNA is used through a ProjectReference only. -->
+  <ItemGroup>
+    <Compile Remove="external/**/*.cs" />
+    <None Remove="external/**" />
+    <Content Remove="external/**" />
+    <EmbeddedResource Remove="external/**" />
+  </ItemGroup>
+
+  <!-- The component table is produced by a source generator (tools/ComponentTableGenerator), which scans for
+       Component subclasses on every compile. tools/ is a separate project and is kept out of the default glob. -->
+  <ItemGroup>
+    <ProjectReference Include="tools\ComponentTableGenerator\ComponentTableGenerator.csproj"
+                      OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+    <Compile Remove="tools/**" />
+    <None Remove="tools/**" />
+    <Content Remove="tools/**" />
+  </ItemGroup>
+
+  <!-- Without the generator the component table would compile empty and fail silently at runtime, so its
+       absence fails the build instead. -->
+  <Target Name="CheckComponentTableGeneratorWired" BeforeTargets="CoreCompile"
+          Condition="'@(ProjectReference->WithMetadataValue('OutputItemType','Analyzer'))' == ''">
+    <Error Text="The component table source generator reference is missing. Restore this line in PixelCore.csproj:&#10;  &lt;ProjectReference Include=&quot;tools\ComponentTableGenerator\ComponentTableGenerator.csproj&quot; OutputItemType=&quot;Analyzer&quot; ReferenceOutputAssembly=&quot;false&quot; /&gt;&#10;Without it the component table builds empty: the Add Component list is blank and marker components vanish on load." />
+  </Target>
+
+  <ItemGroup>
+    <PackageReference Include="FontStashSharp" Version="1.3.10" />
+    <PackageReference Include="ImGui.NET" Version="1.91.6.1" Condition="'$(Configuration)' != 'Release'" />
+    <ProjectReference Include="external\FNA\FNA.Core.csproj" />
+  </ItemGroup>
+
+  <!-- FNA native libraries for macOS. -->
+  <ItemGroup Condition="$([MSBuild]::IsOSPlatform('OSX'))">
+    <None Include="fnalibs\osx\*.dylib" CopyToOutputDirectory="PreserveNewest" TargetPath="%(Filename)%(Extension)" />
+  </ItemGroup>
+
+  <!-- FNA native libraries for Windows x64, if present (not included in this repository - use the fnalibs
+       artifact that matches the FNA submodule, keeping its D3D12 folder next to the executable). -->
+  <ItemGroup Condition="$([MSBuild]::IsOSPlatform('Windows'))">
+    <None Include="fnalibs\win-x64\**\*.dll" Link="%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <!-- NativeAOT ignores FNA's dllmap, so the libraries are also made available under P/Invoke's default probing
+       names. The versioned names stay because FNA3D and FAudio link against @rpath/libSDL3.0.dylib. -->
+  <Target Name="FnalibsAotNamesBuild" AfterTargets="Build" Condition="$([MSBuild]::IsOSPlatform('OSX'))">
+    <Copy SourceFiles="fnalibs/osx/libSDL3.0.dylib" DestinationFiles="$(OutDir)libSDL3.dylib" SkipUnchangedFiles="true" />
+    <Copy SourceFiles="fnalibs/osx/libFNA3D.0.dylib" DestinationFiles="$(OutDir)libFNA3D.dylib" SkipUnchangedFiles="true" />
+    <Copy SourceFiles="fnalibs/osx/libFAudio.0.dylib" DestinationFiles="$(OutDir)libFAudio.dylib" SkipUnchangedFiles="true" />
+  </Target>
+  <!-- Publish uses symlinks rather than copies, and drops files that do not belong in a distribution
+       (FNA.pdb with build-machine paths, and FNA.dll.config, which AOT never reads). -->
+  <Target Name="FnalibsAotNamesPublish" AfterTargets="Publish" Condition="$([MSBuild]::IsOSPlatform('OSX'))">
+    <Exec Command="cd &quot;$(PublishDir)&quot; &amp;&amp; ln -sf libSDL3.0.dylib libSDL3.dylib &amp;&amp; ln -sf libFNA3D.0.dylib libFNA3D.dylib &amp;&amp; ln -sf libFAudio.0.dylib libFAudio.dylib" />
+    <Delete Files="$(PublishDir)FNA.pdb;$(PublishDir)FNA.dll.config" />
+  </Target>
+
+  <!-- The AOT symbol bundle is copied after Publish, so it is removed after _CopyAotSymbols. -->
+  <Target Name="DropAotSymbolsFromPublish" AfterTargets="_CopyAotSymbols"
+          Condition="$([MSBuild]::IsOSPlatform('OSX')) And '$(Configuration)' == 'Release'">
+    <RemoveDir Directories="$(PublishDir)PixelCore.dsym" />
+  </Target>
+
+  <!-- Everything under Content is copied to the output, except shader sources (the runtime reads the compiled
+       .fxb) and Finder artefacts. Copy-all-and-exclude means a new asset type can never silently go missing
+       from a build. -->
+  <ItemGroup>
+    <Content Include="Content\**\*"
+             Exclude="Content\**\*.fx;Content\**\.DS_Store;Content\obj\**">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>

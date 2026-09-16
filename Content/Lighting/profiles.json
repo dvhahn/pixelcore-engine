@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "rows": [
+    {
+      "scene": "*",
+      "tag": "Day",
+      "grainScaleStops": [[0, 1.35], [7, 1.0], [17, 1.0], [24, 1.35]]
+    },
+    {
+      "scene": "*",
+      "tag": "Day.Rain",
+      "ambientTintR": 196,
+      "ambientTintG": 210,
+      "ambientTintB": 240,
+      "ambientScale": 0.78,
+      "shadowScale": 0.35
+    },
+    {
+      "scene": "*",
+      "tag": "Dusk",
+      "ambientTintR": 255,
+      "ambientTintG": 238,
+      "ambientTintB": 220,
+      "ambientScale": 0.95,
+      "shadowScale": 0.7
+    },
+    {
+      "scene": "*",
+      "tag": "Dusk.Rain",
+      "ambientTintR": 200,
+      "ambientTintG": 205,
+      "ambientTintB": 235,
+      "ambientScale": 0.72,
+      "shadowScale": 0.3
+    }
+  ]
+}

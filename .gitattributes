@@ -1,0 +1,12 @@
+# Normalise line endings in text; never touch binaries.
+* text=auto
+
+*.png   binary
+*.bmp   binary
+*.ico   binary
+*.ttf   binary
+*.wav   binary
+*.ogg   binary
+*.fxb   binary
+*.dylib binary
+*.dll   binary

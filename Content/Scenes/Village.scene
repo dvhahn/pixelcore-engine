@@ -1,0 +1,2262 @@
+{
+  "schemaVersion": 2,
+  "nextEntityId": 51,
+  "id": "5a1c7e20",
+  "name": "Village",
+  "kind": "Level",
+  "lightingEnabled": true,
+  "ambientR": 255,
+  "ambientG": 255,
+  "ambientB": 255,
+  "exterior": true,
+  "viewZoom": 1,
+  "cameraFixed": false,
+  "cameraFixedX": 0,
+  "cameraFixedY": 0,
+  "cameraBoundsEnabled": true,
+  "cameraDampingEnabled": false,
+  "cameraDampingX": 2.3,
+  "cameraDampingY": 2.3,
+  "cameraBoundsX": 0,
+  "cameraBoundsY": 0,
+  "cameraBoundsW": 640,
+  "cameraBoundsH": 416,
+  "postTintR": 255,
+  "postTintG": 255,
+  "postTintB": 255,
+  "postTintStrength": 0,
+  "postFogR": 185,
+  "postFogG": 195,
+  "postFogB": 215,
+  "postFogOpacity": 0,
+  "postVignette": 0,
+  "entities": [
+    {
+      "id": 1,
+      "parentId": 0,
+      "name": "TreeBigPine",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 40,
+          "y": 40,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_BigPine",
+          "srcX": 0,
+          "srcY": 32,
+          "srcW": 64,
+          "srcH": 48,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -5,
+          "sizeX": 40,
+          "sizeY": 10,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parentId": 0,
+      "name": "TreeBigPine",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 120,
+          "y": 40,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_BigPine",
+          "srcX": 0,
+          "srcY": 32,
+          "srcW": 64,
+          "srcH": 48,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -5,
+          "sizeX": 40,
+          "sizeY": 10,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "parentId": 0,
+      "name": "TreeBigPine",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 200,
+          "y": 40,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_BigPine",
+          "srcX": 0,
+          "srcY": 32,
+          "srcW": 64,
+          "srcH": 48,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -5,
+          "sizeX": 40,
+          "sizeY": 10,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "parentId": 0,
+      "name": "TreeBigPine",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 280,
+          "y": 40,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_BigPine",
+          "srcX": 0,
+          "srcY": 32,
+          "srcW": 64,
+          "srcH": 48,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -5,
+          "sizeX": 40,
+          "sizeY": 10,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "parentId": 0,
+      "name": "TreeBigPine",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 360,
+          "y": 40,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_BigPine",
+          "srcX": 0,
+          "srcY": 32,
+          "srcW": 64,
+          "srcH": 48,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -5,
+          "sizeX": 40,
+          "sizeY": 10,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "parentId": 0,
+      "name": "TreeBigPine",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 440,
+          "y": 40,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_BigPine",
+          "srcX": 0,
+          "srcY": 32,
+          "srcW": 64,
+          "srcH": 48,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -5,
+          "sizeX": 40,
+          "sizeY": 10,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "parentId": 0,
+      "name": "TreeBigPine",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 520,
+          "y": 40,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_BigPine",
+          "srcX": 0,
+          "srcY": 32,
+          "srcW": 64,
+          "srcH": 48,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -5,
+          "sizeX": 40,
+          "sizeY": 10,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "parentId": 0,
+      "name": "TreeBigPine",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 600,
+          "y": 40,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_BigPine",
+          "srcX": 0,
+          "srcY": 32,
+          "srcW": 64,
+          "srcH": 48,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -5,
+          "sizeX": 40,
+          "sizeY": 10,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "parentId": 0,
+      "name": "TreePine",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 24,
+          "y": 104,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Pine",
+          "srcX": 32,
+          "srcY": 0,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 12,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "parentId": 0,
+      "name": "TreePine",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 616,
+          "y": 104,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Pine",
+          "srcX": 32,
+          "srcY": 0,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 12,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "parentId": 0,
+      "name": "TreePine",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 24,
+          "y": 164,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Pine",
+          "srcX": 32,
+          "srcY": 0,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 12,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "parentId": 0,
+      "name": "TreePine",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 616,
+          "y": 164,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Pine",
+          "srcX": 32,
+          "srcY": 0,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 12,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "parentId": 0,
+      "name": "TreePine",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 24,
+          "y": 224,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Pine",
+          "srcX": 32,
+          "srcY": 0,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 12,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "parentId": 0,
+      "name": "TreePine",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 616,
+          "y": 224,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Pine",
+          "srcX": 32,
+          "srcY": 0,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 12,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "parentId": 0,
+      "name": "TreePine",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 24,
+          "y": 284,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Pine",
+          "srcX": 32,
+          "srcY": 0,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 12,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "parentId": 0,
+      "name": "TreePine",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 616,
+          "y": 284,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Pine",
+          "srcX": 32,
+          "srcY": 0,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 12,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "parentId": 0,
+      "name": "TreePine",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 24,
+          "y": 344,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Pine",
+          "srcX": 32,
+          "srcY": 0,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 12,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "parentId": 0,
+      "name": "TreePine",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 616,
+          "y": 344,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Pine",
+          "srcX": 32,
+          "srcY": 0,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 12,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "parentId": 0,
+      "name": "TreeRound",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 56,
+          "y": 412,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Round",
+          "srcX": 0,
+          "srcY": 0,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 12,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "parentId": 0,
+      "name": "TreeRound",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 128,
+          "y": 412,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Round",
+          "srcX": 0,
+          "srcY": 0,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 12,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "parentId": 0,
+      "name": "TreeRound",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 200,
+          "y": 412,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Round",
+          "srcX": 0,
+          "srcY": 0,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 12,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "parentId": 0,
+      "name": "TreeRound",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 272,
+          "y": 412,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Round",
+          "srcX": 0,
+          "srcY": 0,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 12,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "parentId": 0,
+      "name": "TreeRound",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 344,
+          "y": 412,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Round",
+          "srcX": 0,
+          "srcY": 0,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 12,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "parentId": 0,
+      "name": "TreeRound",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 416,
+          "y": 412,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Round",
+          "srcX": 0,
+          "srcY": 0,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 12,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "parentId": 0,
+      "name": "TreeRound",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 488,
+          "y": 412,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Round",
+          "srcX": 0,
+          "srcY": 0,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 12,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "parentId": 0,
+      "name": "TreeRound",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 560,
+          "y": 412,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Round",
+          "srcX": 0,
+          "srcY": 0,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 12,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "parentId": 0,
+      "name": "TreeBig",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 104,
+          "y": 136,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Big",
+          "srcX": 64,
+          "srcY": 32,
+          "srcW": 64,
+          "srcH": 48,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -5,
+          "sizeX": 40,
+          "sizeY": 10,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "parentId": 0,
+      "name": "TreeRound",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 200,
+          "y": 104,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Round",
+          "srcX": 0,
+          "srcY": 0,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 12,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "parentId": 0,
+      "name": "TreePine",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 232,
+          "y": 200,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Pine",
+          "srcX": 32,
+          "srcY": 0,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 12,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "parentId": 0,
+      "name": "TreeSmall",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 440,
+          "y": 120,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Small",
+          "srcX": 96,
+          "srcY": 128,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 12,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "parentId": 0,
+      "name": "TreeBig",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 560,
+          "y": 216,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Big",
+          "srcX": 64,
+          "srcY": 32,
+          "srcW": 64,
+          "srcH": 48,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -5,
+          "sizeX": 40,
+          "sizeY": 10,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "parentId": 0,
+      "name": "Stump",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 152,
+          "y": 232,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Stump",
+          "srcX": 0,
+          "srcY": 128,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 12,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        },
+        {
+          "type": "interactable",
+          "prompt": "verb.examine",
+          "kind": "Read",
+          "block": "village.stump",
+          "range": 14
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "parentId": 0,
+      "name": "TreeRound",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 104,
+          "y": 344,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Round",
+          "srcX": 0,
+          "srcY": 0,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 12,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "parentId": 0,
+      "name": "TreePine",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 200,
+          "y": 368,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Pine",
+          "srcX": 32,
+          "srcY": 0,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 12,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "parentId": 0,
+      "name": "TreeSmall",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 264,
+          "y": 336,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Small",
+          "srcX": 96,
+          "srcY": 128,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 12,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "parentId": 0,
+      "name": "TreeBig",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 440,
+          "y": 376,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Big",
+          "srcX": 64,
+          "srcY": 32,
+          "srcW": 64,
+          "srcH": 48,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -5,
+          "sizeX": 40,
+          "sizeY": 10,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "parentId": 0,
+      "name": "TreeRound",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 560,
+          "y": 352,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Tree_Round",
+          "srcX": 0,
+          "srcY": 0,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 12,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "parentId": 0,
+      "name": "Rock",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 352,
+          "y": 344,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Rock",
+          "srcX": 208,
+          "srcY": 128,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -4,
+          "sizeX": 20,
+          "sizeY": 8,
+          "isTrigger": false,
+          "isOneWay": false
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "parentId": 0,
+      "name": "Cottage",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 320,
+          "y": 128,
+          "rotation": 0
+        },
+        {
+          "type": "sceneInstance",
+          "sceneId": "7c0e2b51"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "parentId": 0,
+      "name": "Spawn_FromHouse",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 320,
+          "y": 148,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "parentId": 0,
+      "name": "Spawn_Start",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 320,
+          "y": 232,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "parentId": 0,
+      "name": "ShrineStone",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 496,
+          "y": 176,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "c35cd461",
+          "slice": "Rock",
+          "srcX": 208,
+          "srcY": 128,
+          "srcW": 32,
+          "srcH": 32,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -4,
+          "sizeX": 20,
+          "sizeY": 8,
+          "isTrigger": false,
+          "isOneWay": false
+        },
+        {
+          "type": "interactable",
+          "prompt": "verb.touch",
+          "kind": "Event",
+          "event": "village.stone",
+          "range": 14
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "parentId": 0,
+      "name": "OldMan",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 392,
+          "y": 248,
+          "rotation": 0
+        },
+        {
+          "type": "sprite",
+          "texture": null,
+          "atlas": "32957517",
+          "slice": "Idle_D_0",
+          "srcX": 0,
+          "srcY": 0,
+          "srcW": 16,
+          "srcH": 16,
+          "colorR": 255,
+          "colorG": 255,
+          "colorB": 255,
+          "colorA": 255,
+          "renderLayer": 0,
+          "sortOffset": 0,
+          "flipX": false,
+          "flipY": false,
+          "pivotX": 0.5,
+          "pivotY": 1,
+          "emissive": 0,
+          "castShadow": true,
+          "shadowStyle": "Soft",
+          "shadowScale": 1
+        },
+        {
+          "type": "animator",
+          "clips": [
+            "3e650ff0",
+            "50f3a94c",
+            "cb11b66e",
+            "d3647763"
+          ],
+          "defaultClip": "Idle_D"
+        },
+        {
+          "type": "collider",
+          "offsetX": 0,
+          "offsetY": -3,
+          "sizeX": 10,
+          "sizeY": 6,
+          "isTrigger": false,
+          "isOneWay": false
+        },
+        {
+          "type": "interactable",
+          "prompt": "verb.talk",
+          "kind": "Read",
+          "block": "village.oldMan",
+          "range": 14
+        },
+        {
+          "type": "talker",
+          "anchorX": 0,
+          "anchorY": 0
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "parentId": 0,
+      "name": "Rain",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 380,
+          "y": -8,
+          "rotation": 0
+        },
+        {
+          "type": "component",
+          "name": "PixelCore.Gameplay.Village.RainEmitter"
+        },
+        {
+          "type": "particleEmitter",
+          "preset": "d678127c",
+          "emitting": false,
+          "rateScale": 1
+        },
+        {
+          "type": "soundEmitter",
+          "soundId": "10244551",
+          "radius": 2000,
+          "volume": 0.5,
+          "bus": "Ambient",
+          "panStrength": 0,
+          "fadeIn": 1.5,
+          "fadeOut": 1.5
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "parentId": 0,
+      "name": "RainSplash",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 320,
+          "y": 208,
+          "rotation": 0
+        },
+        {
+          "type": "component",
+          "name": "PixelCore.Gameplay.Village.RainEmitter"
+        },
+        {
+          "type": "particleEmitter",
+          "preset": "1e79946f",
+          "emitting": false,
+          "rateScale": 1
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "parentId": 0,
+      "name": "Slime1",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 136,
+          "y": 296,
+          "rotation": 0
+        },
+        {
+          "type": "sceneInstance",
+          "sceneId": "51a3e0c4"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "parentId": 0,
+      "name": "Slime2",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 248,
+          "y": 280,
+          "rotation": 0
+        },
+        {
+          "type": "sceneInstance",
+          "sceneId": "51a3e0c4"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "parentId": 0,
+      "name": "Slime3",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 520,
+          "y": 304,
+          "rotation": 0
+        },
+        {
+          "type": "sceneInstance",
+          "sceneId": "51a3e0c4"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "parentId": 0,
+      "name": "Slime4",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 584,
+          "y": 152,
+          "rotation": 0
+        },
+        {
+          "type": "sceneInstance",
+          "sceneId": "51a3e0c4"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "parentId": 0,
+      "name": "Player",
+      "active": true,
+      "components": [
+        {
+          "type": "transform",
+          "x": 320,
+          "y": 232,
+          "rotation": 0
+        },
+        {
+          "type": "sceneInstance",
+          "sceneId": "3e9d61a7"
+        }
+      ]
+    }
+  ],
+  "tilemapLayers": [
+    {
+      "name": "Ground",
+      "width": 40,
+      "height": 26,
+      "tileSize": 16,
+      "renderLayer": -1000,
+      "hasCollision": false,
+      "drawOrder": 0,
+      "rows": [
+        "244,265,268,264,267,245,266,244,265,268,264,267,245,266,244,265,268,264,267,245,266,244,265,268,264,267,245,266,244,265,268,264,267,245,266,244,265,268,264,267",
+        "266,268,265,264,265,244,264,268,266,264,268,245,268,266,244,265,268,267,265,264,264,264,267,244,264,264,268,265,267,267,245,267,264,266,267,266,267,266,268,266",
+        "245,264,267,265,268,266,266,268,268,268,244,266,266,244,267,244,245,264,266,266,267,245,264,264,267,264,245,265,244,268,268,265,267,245,265,244,268,244,266,264",
+        "267,244,264,265,268,244,266,244,266,245,245,268,245,267,266,245,266,267,265,245,245,267,244,245,264,265,266,264,266,244,245,245,265,267,245,267,266,245,244,268",
+        "264,244,266,264,265,265,268,264,267,245,245,265,245,245,267,245,267,245,267,245,244,266,245,264,245,267,244,266,265,267,244,244,264,268,266,267,245,265,245,267",
+        "268,244,245,267,264,267,267,266,245,245,267,265,245,268,268,266,268,264,267,245,244,265,266,245,265,244,267,245,265,268,267,244,244,245,244,264,267,268,244,265",
+        "265,266,244,267,266,245,268,244,267,244,244,245,245,265,244,264,245,266,264,244,264,245,267,268,264,264,265,265,245,245,264,268,245,265,265,264,268,264,264,266",
+        "244,268,264,244,245,268,267,245,264,245,267,266,244,267,265,245,245,245,265,266,264,245,245,245,266,266,267,265,244,267,245,264,268,244,267,265,266,266,244,267",
+        "266,268,244,267,245,266,266,267,268,265,268,244,267,268,266,265,265,268,154,155,155,156,268,264,264,264,264,266,265,245,264,245,265,244,264,267,265,245,264,264",
+        "245,244,267,265,264,265,267,267,266,264,264,244,267,266,268,264,244,266,198,182,181,200,264,244,266,266,265,266,266,265,267,245,264,267,266,265,264,268,245,264",
+        "267,266,244,264,264,268,265,244,266,267,265,266,265,265,245,267,264,265,264,176,178,244,268,267,264,265,267,265,267,245,245,244,267,268,266,265,265,245,264,266",
+        "264,266,267,266,245,265,265,267,244,244,245,244,267,244,265,268,244,244,265,176,178,264,245,244,268,245,266,244,245,267,154,156,264,267,268,266,268,268,245,245",
+        "268,266,245,266,244,245,265,267,245,245,264,266,267,268,244,245,265,244,244,176,178,244,264,267,264,268,268,266,244,244,176,178,264,245,245,268,266,264,244,265",
+        "265,265,244,268,265,267,244,266,265,244,264,267,267,265,245,245,244,245,245,176,178,265,244,245,267,245,265,267,267,265,176,178,267,266,264,266,264,267,245,268",
+        "244,244,267,245,266,245,244,268,264,264,267,266,265,264,264,245,266,267,264,176,178,264,245,264,244,268,265,244,268,244,176,178,264,264,264,268,268,264,245,267",
+        "266,266,268,267,265,265,244,267,268,264,244,267,266,266,267,244,268,266,244,176,178,268,264,267,245,268,268,264,267,268,176,178,264,265,265,268,264,265,268,267",
+        "245,154,155,155,155,155,155,155,155,155,155,155,155,155,155,155,155,155,155,204,203,155,155,155,155,155,155,155,155,155,204,203,155,155,155,155,155,155,156,265",
+        "267,198,199,199,199,199,199,199,199,199,199,199,199,199,199,199,199,199,199,199,199,199,199,199,199,199,199,199,199,199,199,199,199,199,199,199,199,199,200,266",
+        "264,245,244,245,265,245,268,264,266,268,268,245,265,266,265,268,245,267,266,266,266,245,244,267,265,245,245,268,267,268,266,266,244,245,245,266,268,245,267,264",
+        "268,268,265,264,265,266,267,266,265,245,244,264,245,264,264,268,265,264,265,245,268,268,267,266,244,245,267,267,264,268,244,265,267,267,267,265,266,264,244,267",
+        "265,265,245,264,244,265,266,244,266,245,267,244,268,265,244,268,245,264,265,266,268,264,245,244,268,244,268,267,264,267,265,245,266,266,268,245,266,267,265,245",
+        "244,268,268,267,245,265,268,245,267,245,245,245,265,268,264,267,245,245,268,265,265,245,268,244,245,266,264,264,267,265,245,244,265,244,266,268,266,244,244,264",
+        "266,268,245,245,265,265,245,266,264,244,268,268,268,244,265,266,244,268,244,264,264,268,244,267,265,265,244,245,268,268,267,264,244,266,244,265,268,244,264,244",
+        "245,264,265,265,264,265,264,267,265,245,245,244,245,268,264,264,244,244,265,268,266,265,265,267,267,264,245,265,266,245,245,244,264,265,265,244,245,266,266,265",
+        "267,264,245,245,264,245,245,264,244,265,264,265,268,244,265,266,264,267,264,265,266,264,245,268,265,244,267,266,244,266,264,268,268,265,244,264,244,245,268,244",
+        "264,266,268,267,245,244,267,244,268,244,266,267,265,267,268,266,245,264,265,266,264,245,264,265,244,264,244,264,264,245,264,268,264,245,265,268,268,264,267,265"
+      ],
+      "tileset": "11802a8f"
+    },
+    {
+      "name": "Flowers",
+      "width": 40,
+      "height": 26,
+      "tileSize": 16,
+      "renderLayer": -1000,
+      "hasCollision": false,
+      "drawOrder": 1,
+      "rows": [
+        ".,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.",
+        ".,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.",
+        ".,.,244,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,266,.,243,.,.,.,.,.,.,.,.,.,.,.",
+        ".,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.",
+        ".,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.",
+        ".,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,269,.,.,.,.,.,.,.,.,.,.,.,.,.",
+        ".,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,265,.,.,.,.,.,.,.,.,.,.,.,.",
+        ".,.,.,.,.,.,.,.,.,.,.,.,.,.,.,244,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,245,.,.,.,.,267,.,.,.",
+        ".,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.",
+        ".,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,245,.,.,.,.,.,.,.,.,.,.",
+        ".,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,265,.,.,.,265,.,.",
+        ".,.,.,.,.,.,.,.,.,.,.,.,267,.,.,.,.,.,.,.,.,.,.,.,.,.,264,.,.,.,.,.,.,.,.,.,.,.,.,.",
+        ".,.,.,.,.,.,.,.,.,.,.,.,.,.,.,266,268,.,.,.,.,.,243,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.",
+        ".,.,.,.,.,.,.,243,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.",
+        ".,.,.,.,.,.,.,.,.,.,.,.,.,.,.,267,.,269,.,.,.,.,.,.,.,264,.,.,.,.,.,.,.,265,.,.,.,.,.,.",
+        ".,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.",
+        ".,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.",
+        ".,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.",
+        ".,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.",
+        ".,.,244,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,264,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.",
+        ".,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,268,.,.",
+        ".,.,.,243,.,.,.,.,.,265,268,.,.,.,.,.,.,.,.,243,.,.,.,.,243,.,.,.,.,245,.,.,.,.,.,.,.,.,.,.",
+        ".,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,268,.,.,.,.,.,.,.,.,.,.",
+        ".,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,266,.,.,.,.,.,.,.,.",
+        ".,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.",
+        ".,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,."
+      ],
+      "tileset": "e07e79cc"
+    },
+    {
+      "name": "Hedge",
+      "width": 40,
+      "height": 26,
+      "tileSize": 16,
+      "renderLayer": -1000,
+      "hasCollision": true,
+      "drawOrder": 2,
+      "rows": [
+        "241,240,241,242,240,240,242,240,241,242,240,242,240,240,240,241,241,240,240,240,242,241,240,242,240,240,242,242,242,240,242,242,241,240,240,240,242,240,241,241",
+        "240,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,242",
+        "240,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,242",
+        "241,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,242",
+        "242,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,240",
+        "240,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,242",
+        "242,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,242",
+        "240,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,241",
+        "240,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,242",
+        "242,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,240",
+        "242,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,240",
+        "242,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,240",
+        "241,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,242",
+        "242,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,241",
+        "241,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,241",
+        "242,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,241",
+        "241,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,241",
+        "240,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,240",
+        "242,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,240",
+        "240,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,242",
+        "241,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,242",
+        "241,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,241",
+        "242,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,241",
+        "241,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,242",
+        "240,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,240",
+        "242,241,240,241,240,241,241,240,242,240,242,242,241,241,242,241,242,241,242,241,240,240,241,241,242,242,240,240,242,242,241,242,242,242,241,241,242,241,242,241"
+      ],
+      "tileset": "e07e79cc"
+    }
+  ],
+  "tilemapActive": true
+}

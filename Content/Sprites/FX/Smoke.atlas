@@ -1,0 +1,68 @@
+{
+  "Id": "891497c9",
+  "TexturePath": "Smoke.png",
+  "Mode": "Grid",
+  "CellWidth": 32,
+  "CellHeight": 32,
+  "OffsetX": 0,
+  "OffsetY": 0,
+  "SpacingX": 0,
+  "SpacingY": 0,
+  "OpaqueWidth": 0,
+  "Slices": [
+    {
+      "Name": "Smoke_0",
+      "X": 0,
+      "Y": 0,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 0.85
+    },
+    {
+      "Name": "Smoke_1",
+      "X": 32,
+      "Y": 0,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 0.85
+    },
+    {
+      "Name": "Smoke_2",
+      "X": 64,
+      "Y": 0,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 0.85
+    },
+    {
+      "Name": "Smoke_3",
+      "X": 96,
+      "Y": 0,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 0.85
+    },
+    {
+      "Name": "Smoke_4",
+      "X": 128,
+      "Y": 0,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 0.85
+    },
+    {
+      "Name": "Smoke_5",
+      "X": 160,
+      "Y": 0,
+      "Width": 32,
+      "Height": 32,
+      "PivotX": 0.5,
+      "PivotY": 0.85
+    }
+  ]
+}

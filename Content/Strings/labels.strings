@@ -1,0 +1,19 @@
+# Label table - text the game speaks in its own voice ("read it aloud and the game is talking")
+#
+# Format:      key = value    (only the first '=' separates; whitespace is trimmed; '#' starts a comment)
+# Interpolation: {name}       named placeholder, not positional ({0})
+# Newline:     \n
+#
+# Note: spoken lines ("the stone is warm") belong in Content/Story/, not here - they have a speaker.
+
+# -- Verbs: interaction labels. Hundreds of objects share these few.
+verb.examine = Examine
+verb.talk = Talk
+verb.touch = Touch
+verb.enter = Enter
+verb.open = Open
+verb.exit = Leave
+
+# -- Names: who is speaking
+name.hero = Kai
+name.elder = Old Man

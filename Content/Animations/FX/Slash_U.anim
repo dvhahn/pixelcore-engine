@@ -1,0 +1,34 @@
+{
+  "Id": "c09a6e9f",
+  "Name": "Slash_U",
+  "AtlasId": "af355d68",
+  "AtlasPath": "Sprites/FX/Slash.png",
+  "Frames": [
+    {
+      "SliceIndex": 5,
+      "Duration": 0.05,
+      "EventName": null
+    },
+    {
+      "SliceIndex": 6,
+      "Duration": 0.05,
+      "EventName": null
+    },
+    {
+      "SliceIndex": 7,
+      "Duration": 0.05,
+      "EventName": null
+    },
+    {
+      "SliceIndex": 8,
+      "Duration": 0.05,
+      "EventName": null
+    },
+    {
+      "SliceIndex": 9,
+      "Duration": 0.05,
+      "EventName": null
+    }
+  ],
+  "Loop": false
+}
